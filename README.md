@@ -2,20 +2,20 @@
 
 ## Description
 
-Create a Hotel Booking app using the Flutter framework and Supabase. The app should retrieve and display hotels information from Supabase, and the user should be able to create an account and log in based on the data in Supabase, as well able to book a room in a hotel.
+Create a Hotel Booking app using the Flutter framework and Supabase. The app should retrieve and display hotels information from Supabase, and the user should be able to create an account and login based on the data in Supabase, as well able to book a room in a hotel.
 
 ## Details
 1. Create a new project in Supabase, and create tables related to the requirements of the application.
 2. Use a supabase_flutter package in your Flutter project.
 3. Apply authentication and validation on email and password.
-4. Retrieve all hotels information, and provide the search and sort hotels by city features.
+4. Retrieve all hotels information from Supabase, and provide the search and sort hotels by city features.
 5. Implement a room reservation function, and the users should be able to display, edit, and cancel their reservations.
 
 
 ## Minimum Requirements
 1. Implement these designs in your app.
-2. Create at least 7 screens, and provide navigation between these screens.
-3. Apply the CRUD operations using the Supabase.
+2. Create at least 8 screens, and provide navigation between these screens.
+3. Apply the CRUD operations using the Supabase functions.
 4. Create model classes to define the hotel, user, and reservation information.
 5. Implement proper error handling.
 6. Organize the Flutter project structure appropriately.
@@ -33,9 +33,10 @@ Create a Hotel Booking app using the Flutter framework and Supabase. The app sho
 
 
 
-
 ## Bonus:
-  -
+  - Implement a date picker that allows users to easily select dates or a range of dates while booking a room.
+  - Display a reviews section for each hotel, it should be retrieved from Supabase.
+  - Apply email confirmation by sending OTP using Supabase.
 
 
 ## Submission:
